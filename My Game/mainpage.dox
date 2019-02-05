@@ -1,0 +1,56 @@
+/// \mainpage A platformer.
+/// 
+/// A simple platformer with graphics, particle effects, and sound.
+/// There is a turret that will shoot at you if you are visible, that is,
+/// not hiding behind a wall.
+/// You can shoot at it too. You can fire in the direction that you
+/// are facing, which is indicated by an arrow on the sprite.
+/// The background is tiled, with the map read from a text file with
+/// F for floor tiles and W for wall tiles. 
+/// The camera follows the player but it stops
+/// at the edges of the world so that you never see anything that
+/// is outside the world. Bullets persist until they run into something,
+/// either the player, the turret, or the edges of the world.
+/// The turret does not move. There is gravity.
+/// In the following screenshot, the green circle
+/// is the player and the white circle is a turret.
+///
+/// @image html screenshot.png
+/// 
+/// Keyboard commands are summarized below.
+///
+/// <center>
+/// <table>
+/// <tr>
+/// <td><center><b>Key</b></center></td>
+/// <td><center><b>Action</b></center></td>
+/// <tr>
+/// <td>ESC</td>
+/// <td>Exit</td>
+/// <tr>
+/// <td>A</td>
+/// <td>Move left</td>
+/// <tr>
+/// <td>D</td>
+/// <td>Move right</td>
+/// <tr>
+/// <td>Up arrow</td>
+/// <td>Jump</td>
+/// <tr>
+/// <td>Down arrow</td>
+/// <td>Retreat when pressed</td>
+/// <tr>
+/// <td>Left arrow</td>
+/// <td>Rotate counterclockwise when pressed</td>
+/// <tr>
+/// <td>Right arrow</td>
+/// <td>Rotate clockwise when pressed</td>
+/// <tr>
+/// <td>Space</td>
+/// <td>Shoot</td>
+/// <tr>
+/// <td>F1</td>
+/// <td>Toggle drawing of AABBs</td>
+/// </table>
+/// </center>
+
