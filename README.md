@@ -1,5 +1,7 @@
 # TheDwarvesAdrift
-2D video game project from CSCE 4210 at University of North Texas
+2D video game project from CSCE 4210 at University of North Texas.
+
+The Larc Engine written by Ian Parberry at UNT.
 
 To compile this game requires the DirectXTK 12. You can find this on github here https://github.com/Microsoft/DirectXTK12.
 
